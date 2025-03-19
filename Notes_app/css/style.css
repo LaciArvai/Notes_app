@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(226, 201, 224);
+  font-family: Atkinson Hyperlegible Next;
+}
+
+.logo {
+  margin: 20px;
+}
+
+.app-container h1 {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  color: #4c484c;
+  font-size: 35px;
+  margin: 20px;
+}
+
+.app-container button {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  background: linear-gradient(rgb(239, 198, 123), rgb(231, 159, 232));
+  color: #4c484c;
+  font-size: 40px;
+  font-weight: bold;
+  border-radius: 20px;
+  outline: 0;
+  border: 0;
+  padding: 15px 25px;
+  margin: 0 0 40px 40px;
+  cursor: pointer;
+}
+
+.app-container button:hover {
+  color: #fff;
+  background: linear-gradient(rgb(239, 198, 123), rgb(200, 104, 186));
+}
+
+.app-container button:active {
+  color: #fff;
+  background-color: rgb(50, 49, 49);
+}
+
+.app-container {
+  padding-top: 1%;
+  padding-left: 10%;
+}
+
+.input-box {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  min-height: 150px;
+  border-radius: 10px;
+  background-color: #f8f2e4;
+  color: #333;
+  padding: 15px;
+  margin: 40px;
+  outline: none;
+}
+
+.notes-container img {
+  position: absolute;
+  width: 25px;
+  bottom: 10px;
+  right: 10px;
+  cursor: pointer;
+}
